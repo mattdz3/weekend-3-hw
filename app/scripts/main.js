@@ -1,3 +1,4 @@
+
 var repos = [ 
   {
     "id": 19404023,
@@ -690,7 +691,7 @@ var repos = [
 ]
 
 
-
+/*
 var getName = _.template($('.get-name').text());
  
 repos.forEach(function(name) {
@@ -722,4 +723,4 @@ repos.forEach(function(forks_count) {
   $('.main').prepend(allRepos);
 });
 
-
+*/

@@ -5,19 +5,79 @@ body {
     font: 13px Helvetica, arial, freesans, clean, sans-serif;
 }
 
+
 .header {
+    background-size: cover;
     width: max;
     height: 41px;
-    font-size: 20px; 
+    font-size: 20px;
+    background-color: #f3f3f3; 
 } 
 
 .main {
-    margin-left: 500px; 
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-left: 230px;
+    width: 980px;
+    height: 1000px; 
+    display: inline-block;
 }
 
-.sidebar {
-    height: 230;
-    width: 230;
-    background-image: url(https://avatars3.githubusercontent.com/u/7440540?s=460);
+.avatar {
+    float: left;
 }
 
+.user-name {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 230px;
+    height: 24px;
+    display: block;
+    overflow: hidden;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+    text-overflow: ellipsis;
+
+}
+  
+.user-details {
+    list-style: none;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #eee;
+    border-top-width: 1px;
+    border-top-style: solid;
+    
+}
+
+.user-stats {
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.stat {
+    float: left;
+    width: 33.333%;
+    font-size: 11px;
+    color: #999;
+}
+
+.stat-words {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #222;
+}
+
+.container {
+    float: right;
+}
