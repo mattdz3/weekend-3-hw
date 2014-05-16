@@ -23,8 +23,13 @@ body {
     display: inline-block;
 }
 
-.avatar {
+.side {
     float: left;
+}
+
+.avatar { 
+    border-radius: 6px;
+
 }
 
 .user-name {
@@ -61,6 +66,7 @@ body {
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+
 }
 
 .stat {
@@ -68,6 +74,11 @@ body {
     width: 33.333%;
     font-size: 11px;
     color: #999;
+
+    &:hover {
+        color: #4183c4;
+    }
+   
 }
 
 .stat-words {
@@ -75,9 +86,49 @@ body {
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
-    color: #222;
+    color: #222; 
+
+    &:hover {
+        color: #4183c4;
+    }
 }
 
-.container {
+.repo-container {
+    width: 200px;
+    height: 800px;
+    line-height: 100px;
+    padding-left: 20px;
+    display: inline-block;
+    
+}
+
+.repo-right {
+    height: 800px;
     float: right;
 }
+
+.get {
+    float: left;
+    list-style: none;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #666;
+}
+
+
+
+.get-name1 {
+    color: #4183c4;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+
+
+

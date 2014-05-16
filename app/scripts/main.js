@@ -173,92 +173,6 @@ var repos = [
     "default_branch": "master"
   },
   {
-    "id": 19321338,
-    "name": "day1",
-    "full_name": "mattdz3/day1",
-    "owner": {
-      "login": "mattdz3",
-      "id": 7440540,
-      "avatar_url": "https://avatars.githubusercontent.com/u/7440540?",
-      "gravatar_id": "706a999bd98d8e7de4ca7a0cfcf47ccc",
-      "url": "https://api.github.com/users/mattdz3",
-      "html_url": "https://github.com/mattdz3",
-      "followers_url": "https://api.github.com/users/mattdz3/followers",
-      "following_url": "https://api.github.com/users/mattdz3/following{/other_user}",
-      "gists_url": "https://api.github.com/users/mattdz3/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/mattdz3/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/mattdz3/subscriptions",
-      "organizations_url": "https://api.github.com/users/mattdz3/orgs",
-      "repos_url": "https://api.github.com/users/mattdz3/repos",
-      "events_url": "https://api.github.com/users/mattdz3/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/mattdz3/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "private": false,
-    "html_url": "https://github.com/mattdz3/day1",
-    "description": "orginal",
-    "fork": false,
-    "url": "https://api.github.com/repos/mattdz3/day1",
-    "forks_url": "https://api.github.com/repos/mattdz3/day1/forks",
-    "keys_url": "https://api.github.com/repos/mattdz3/day1/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/mattdz3/day1/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/mattdz3/day1/teams",
-    "hooks_url": "https://api.github.com/repos/mattdz3/day1/hooks",
-    "issue_events_url": "https://api.github.com/repos/mattdz3/day1/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/mattdz3/day1/events",
-    "assignees_url": "https://api.github.com/repos/mattdz3/day1/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/mattdz3/day1/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/mattdz3/day1/tags",
-    "blobs_url": "https://api.github.com/repos/mattdz3/day1/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/mattdz3/day1/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/mattdz3/day1/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/mattdz3/day1/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/mattdz3/day1/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/mattdz3/day1/languages",
-    "stargazers_url": "https://api.github.com/repos/mattdz3/day1/stargazers",
-    "contributors_url": "https://api.github.com/repos/mattdz3/day1/contributors",
-    "subscribers_url": "https://api.github.com/repos/mattdz3/day1/subscribers",
-    "subscription_url": "https://api.github.com/repos/mattdz3/day1/subscription",
-    "commits_url": "https://api.github.com/repos/mattdz3/day1/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/mattdz3/day1/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/mattdz3/day1/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/mattdz3/day1/issues/comments/{number}",
-    "contents_url": "https://api.github.com/repos/mattdz3/day1/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/mattdz3/day1/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/mattdz3/day1/merges",
-    "archive_url": "https://api.github.com/repos/mattdz3/day1/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/mattdz3/day1/downloads",
-    "issues_url": "https://api.github.com/repos/mattdz3/day1/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/mattdz3/day1/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/mattdz3/day1/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/mattdz3/day1/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/mattdz3/day1/labels{/name}",
-    "releases_url": "https://api.github.com/repos/mattdz3/day1/releases{/id}",
-    "created_at": "2014-04-30T17:20:17Z",
-    "updated_at": "2014-04-30T17:20:17Z",
-    "pushed_at": "2014-04-30T17:20:17Z",
-    "git_url": "git://github.com/mattdz3/day1.git",
-    "ssh_url": "git@github.com:mattdz3/day1.git",
-    "clone_url": "https://github.com/mattdz3/day1.git",
-    "svn_url": "https://github.com/mattdz3/day1",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "language": null,
-    "has_issues": true,
-    "has_downloads": true,
-    "has_wiki": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "forks": 0,
-    "open_issues": 0,
-    "watchers": 0,
-    "default_branch": "master"
-  },
-  {
     "id": 19316687,
     "name": "day1-hw",
     "full_name": "mattdz3/day1-hw",
@@ -691,36 +605,70 @@ var repos = [
 ]
 
 
-/*
+
 var getName = _.template($('.get-name').text());
  
 repos.forEach(function(name) {
 
   var allRepos = getName(name);
  
-  $('.main').prepend(allRepos);
+  $('.repo-container').prepend(allRepos);
+});
+
+/*
+var getDes = _.template($('.get-des').text());
+ 
+repos.map(function(description) {
+
+  var allRepos = getDes(description);
+ 
+  $('.name2').append(allRepos);
+});
+*/
+
+var getLang = _.template($('.lang').text());
+ 
+repos.forEach(function(language) {
+
+  var allRepos = getLang(language);
+ 
+  $('.repo-right').append(allRepos);
 });
 
 
-
-var getStar = _.template($('.get-star').text());
+var getStar = _.template($('.star').text());
  
 repos.forEach(function(stargazers_count) {
 
   var allRepos = getStar(stargazers_count);
  
-  $('.main').prepend(allRepos);
+  $('repo-right').after(allRepos);
 });
 
 
 
-var getFork = _.template($('.get-fork').text());
+var getFork = _.template($('.fork').text());
  
 repos.forEach(function(forks_count) {
 
   var allRepos = getFork(forks_count);
  
-  $('.main').prepend(allRepos);
+  $('.repo-right').append(allRepos);
 });
 
+/*
+var getFollowers = _.template($('.get-followers').text());
+ 
+repos.forEach(function(followers_url) {
+
+  var allRepos = getFollowers(followers_url);
+ 
+  $('.main').prepend(allRepos);
+});
 */
+
+
+
+
+
+
