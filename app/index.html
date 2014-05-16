@@ -23,7 +23,6 @@
 
         <div class="header">This is the header</div>
 
-
             <div class="main"> 
 
                 <div class="side">
@@ -39,7 +38,7 @@
 
                         <a href="https://github.com/mattdz3/followers">
                         <div class="stat">
-                            <strong class="stat-words">6</strong>
+                            <strong class="stat-words">7</strong>
                             followers
                         </div></a>
 
@@ -59,38 +58,33 @@
 
                 </div>
 
-                    <div class="repo-container">
+                <div class="repo-container"> 
 
-                        <script type="text/template" class="get-name">
-                            <div class="get-name1"> <%= name %> </div>
-                        </script>
+                    <script type="text/template" class="userData">
+                        <div class="get-name1"> <%= name %> </div>
 
-                        <script type="text/template" class="get-des">
-                            <div> <%= description %> </div>
-                        </script>
+                        <div class="get-des"> <%= description %> </div>
+                        
+                        <div class="get-date"> Last updated <%= updated_at %> </div> 
 
-                    </div>
-
-
+                  
                         <div class="repo-right">
 
-                            <script type="text/template" class="get lang">
-                                <div> <%= language %> </div>
-                            </script>
+                            <div class="get-fork"> <%= forks_count %> </div>
 
-                            <script type="text/template" class="get star">
-                                <div> <%= stargazers_count %> </div>
-                            </script>
+                            <div class="get-star"> <%= stargazers_count %> </div>
 
-                             <script type="text/template" class="get fork">
-                                <div> <%= forks_count %> </div>
-                            </script>
+                            <div class="get-lang"> <%= language %> </div>
 
                         </div>
                    
-                 
+                    </script>
 
-            </div>
+                </div>
+
+            </div>     
+
+           
 
 
                     

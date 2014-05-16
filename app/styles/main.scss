@@ -7,9 +7,10 @@ body {
 
 
 .header {
-    background-size: cover;
+    text-shadow: 0 1px 0 #fff;
+    border-bottom: 1px solid #e5e5e5;
     width: max;
-    height: 41px;
+    height: 40px;
     font-size: 20px;
     background-color: #f3f3f3; 
 } 
@@ -29,7 +30,6 @@ body {
 
 .avatar { 
     border-radius: 6px;
-
 }
 
 .user-name {
@@ -45,7 +45,6 @@ body {
     line-height: 24px;
     color: #666;
     text-overflow: ellipsis;
-
 }
   
 .user-details {
@@ -55,8 +54,7 @@ body {
     padding-bottom: 15px;
     border-top: 1px solid #eee;
     border-top-width: 1px;
-    border-top-style: solid;
-    
+    border-top-style: solid;   
 }
 
 .user-stats {
@@ -66,12 +64,11 @@ body {
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-
 }
 
 .stat {
     float: left;
-    width: 33.333%;
+    width: 33%;
     font-size: 11px;
     color: #999;
 
@@ -94,21 +91,15 @@ body {
 }
 
 .repo-container {
-    width: 200px;
+    width: 720px;
     height: 800px;
-    line-height: 100px;
     padding-left: 20px;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 .repo-right {
-    height: 800px;
+    width: 150px;
     float: right;
-}
-
-.get {
-    float: left;
     list-style: none;
     font-size: 11px;
     font-weight: bold;
@@ -116,18 +107,44 @@ body {
     color: #666;
 }
 
-
-
 .get-name1 {
     color: #4183c4;
+    border-top: 1px solid #eee;
     font-size: 20px;
     line-height: 32px;
     font-weight: bold;
-    display: block;
+    padding-top: 20px;
 }
 
+.get-des {
+    padding-top: 8px;
+    color: #333333;
+}
 
+.get-date {
+    font-size: 11px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    color: #999999;
+    border-bottom: 1px solid #eee;
+}
 
+.get-lang {
+    padding-top: 35px;
+    padding-right: 20px;
+    float: right;
+}
+
+.get-star {
+    padding-top: 35px;
+    padding-right: 20px;
+    float: right;
+}
+
+.get-fork {
+    padding-top: 35px;
+    float: right;
+}
 
 
 
