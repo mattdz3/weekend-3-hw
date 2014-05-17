@@ -58,21 +58,31 @@
 
                 </div>
 
+
+
                 <div class="repo-container"> 
 
-                    <script type="text/template" class="userData">
-                        <div class="get-name1"> <%= name %> </div>
+                    <script type="text/template" class="userData"> 
+
+                    <a href="https://github.com/<%=full_name%>">
+
+
+                        <div class="get-name1"> <img src="images/book-icon-big.png" class="book"> </img> 
+                        <%= name %> </div> </a>
 
                         <div class="get-des"> <%= description %> </div>
-                        
+
                         <div class="get-date"> Last updated <%= updated_at %> </div> 
 
                   
                         <div class="repo-right">
 
-                            <div class="get-fork"> <%= forks_count %> </div>
 
-                            <div class="get-star"> <%= stargazers_count %> </div>
+                            <a href="https://github.com/<%=full_name%>/network">
+                            <div class="get-fork"> <img src="images/fork-icon.png" class="fork"> </img>  <%= forks_count %> </div></a>
+
+                            <a href="https://github.com/<%=full_name%>/stargazers">
+                            <div class="get-star"> <img src="images/star-icon.png"> </img> <%= stargazers_count %> </div> </a>
 
                             <div class="get-lang"> <%= language %> </div>
 
