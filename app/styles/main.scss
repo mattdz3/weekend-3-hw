@@ -26,11 +26,9 @@ body {
 
 .side {
     float: left;
+    width: 230px;
 }
 
-.avatar { 
-    border-radius: 6px;
-}
 
 .user-name {
     padding-top: 5px;
@@ -91,12 +89,8 @@ body {
 }
 
 .repo-container {
-    width: 720px;
-    height: 800px;
-    padding-left: 20px;
-    padding-top: 100px;
-    display: inline-block;
-    text-decoration: none;  
+    width: 700px;
+    float: right;
 }
 
 .repo-right {

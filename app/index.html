@@ -27,10 +27,15 @@
 
                 <div class="side">
 
-                <a href="https://github.com/settings/profile">
-                <div class="avatar"> <img src="https://avatars3.githubusercontent.com/u/7440540?s=460" width="230" height="230"> </a>  </div>
+                    <script type="text/template" class="userSide">
 
-                    <div class="user-name"> mattdz3 </div>
+                    
+
+                    <a href="https://github.com/settings/profile">
+                    <div class="avatar"> <img src="<%= avatar_url %>" height="230" width="230"> </a>  </div> 
+
+                    <div class="user-name"> <%= login %> </div>
+                        
 
                     <div class="user-details"> Joined April 29, 2014</div>
 
@@ -38,8 +43,8 @@
 
                         <a href="https://github.com/mattdz3/followers">
                         <div class="stat">
-                            <strong class="stat-words">7</strong>
-                            followers
+                        <strong class="stat-words"> <%= followers %> </strong>
+                        followers
                         </div></a>
 
                         <a href="https://github.com/stars">
@@ -50,11 +55,14 @@
 
                         <a href="https://github.com/mattdz3/following">
                         <div class="stat">
-                            <strong class="stat-words">18</strong>
+                            <strong class="stat-words"> <%= following %> 
+                            </strong>
                             following
-                        </div></a>
+                        </div></a> 
 
                     </div>
+
+                    </script>
 
                 </div>
 

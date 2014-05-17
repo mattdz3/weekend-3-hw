@@ -1,7 +1,7 @@
 'use strict';
 
 $.getJSON('https://api.github.com/users/mattdz3/repos?client_id5a7d003c0cb2a90f1b5b&client_secret872a8d2dbc6761d4e9b1fa7f2b0e1d5e8f9107f5').done(function(data){
-  setData(data)
+  setData(data);
 });
 
 function setData (repos) {
@@ -11,10 +11,19 @@ function setData (repos) {
     $('.repo-container').append(rendered);
   });
 }
- 
-  
-      
 
+
+
+
+$.getJSON('https://api.github.com/users/mattdz3?client_id5a7d003c0cb2a90f1b5b&client_secret872a8d2dbc6761d4e9b1fa7f2b0e1d5e8f9107f5').done(function(data){
+  setSide(data);
+});
+
+function setSide (data) {
+  var userTemp = _.template($('.userSide').text() );
+    var rendered = userTemp(data);
+      $('.side').prepend(rendered);
+};
 
 
 
