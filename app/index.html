@@ -37,11 +37,11 @@
                     <div class="user-name"> <%= login %> </div>
                         
 
-                    <div class="user-details"> Joined April 29, 2014</div>
+                    <div class="user-details"> <img src="images/clock-icon.png"></img> Joined on <%= created_at %> </div>
 
                     <div class="user-stats">
 
-                        <a href="https://github.com/mattdz3/followers">
+                        <a href="<%= html_url %>/followers">
                         <div class="stat">
                         <strong class="stat-words"> <%= followers %> </strong>
                         followers
@@ -53,7 +53,7 @@
                             starred
                         </div></a>
 
-                        <a href="https://github.com/mattdz3/following">
+                        <a href="<%= html_url %>/following">
                         <div class="stat">
                             <strong class="stat-words"> <%= following %> 
                             </strong>
@@ -73,7 +73,6 @@
                     <script type="text/template" class="userData"> 
 
                     <a href="https://github.com/<%=full_name%>">
-
 
                         <div class="get-name1"> <img src="images/book-icon-big.png" class="book"> </img> 
                         <%= name %> </div> </a>
@@ -105,14 +104,6 @@
            
 
 
-                    
-        
-
-                
-
-     
-            
-   
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->

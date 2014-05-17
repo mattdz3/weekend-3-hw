@@ -3,6 +3,7 @@
 
 body {
     font: 13px Helvetica, arial, freesans, clean, sans-serif;
+    text-decoration: none;
 }
 
 
@@ -89,8 +90,10 @@ body {
 }
 
 .repo-container {
+    padding-top: 90px;
     width: 700px;
     float: right;
+    text-decoration: none;
 }
 
 .repo-right {
@@ -105,6 +108,7 @@ body {
 
 .userData {
     margin-top: 100px;
+    text-decoration: none;
 }
 
 .book {
@@ -129,6 +133,7 @@ body {
 
 
 .get-des {
+    padding-left: 35px;
     padding-top: 8px;
     color: #333333;
 }
@@ -137,6 +142,7 @@ body {
     font-size: 11px;
     padding-top: 8px;
     padding-bottom: 24px;
+    padding-left: 35px;
     color: #999999;
     border-bottom: 1px solid #eee;
 }
