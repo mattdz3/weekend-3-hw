@@ -1,6 +1,6 @@
 'use strict';
 
-$.getJSON('https://api.github.com/users/mattdz3/repos?client_id5a7d003c0cb2a90f1b5b&client_secret872a8d2dbc6761d4e9b1fa7f2b0e1d5e8f9107f5').done(function(data){
+$.getJSON('https://api.github.com/users/mattdz3/repos').done(function(data){
   setData(data);
 });
 
@@ -12,10 +12,7 @@ function setData (repos) {
   });
 }
 
-
-
-
-$.getJSON('https://api.github.com/users/mattdz3?client_id5a7d003c0cb2a90f1b5b&client_secret872a8d2dbc6761d4e9b1fa7f2b0e1d5e8f9107f5').done(function(data){
+$.getJSON('https://api.github.com/users/mattdz3').done(function(data){
   setSide(data);
 });
 

@@ -28,68 +28,61 @@
                 <div class="side">
 
                     <script type="text/template" class="userSide">
-
                     
 
-                    <a href="https://github.com/settings/profile">
-                    <div class="avatar"> <img src="<%= avatar_url %>" height="230" width="230"> </a>  </div> 
+                        <a href="https://github.com/settings/profile">
+                        <div class="avatar"> <img src="<%= avatar_url %>" height="230" width="230"> </a>  </div> 
 
-                    <div class="user-name"> <%= login %> </div>
-                        
+                        <div class="user-name"> <%= login %> </div>
+                            
+                        <div class="user-details"> <img src="images/clock-icon.png"></img> Joined on <%= created_at %> </div>
 
-                    <div class="user-details"> <img src="images/clock-icon.png"></img> Joined on <%= created_at %> </div>
+                        <div class="user-stats">
 
-                    <div class="user-stats">
+                            <a href="<%= html_url %>/followers">
+                            <div class="stat">
+                            <strong class="stat-words"> <%= followers %> </strong>
+                            followers
+                            </div></a>
 
-                        <a href="<%= html_url %>/followers">
-                        <div class="stat">
-                        <strong class="stat-words"> <%= followers %> </strong>
-                        followers
-                        </div></a>
+                            <a href="https://github.com/stars">
+                            <div class="stat">
+                                <strong class="stat-words">9</strong>
+                                starred
+                            </div></a>
 
-                        <a href="https://github.com/stars">
-                        <div class="stat">
-                            <strong class="stat-words">9</strong>
-                            starred
-                        </div></a>
+                            <a href="<%= html_url %>/following">
+                            <div class="stat">
+                                <strong class="stat-words"> <%= following %> 
+                                </strong>
+                                following
+                            </div> </a> 
 
-                        <a href="<%= html_url %>/following">
-                        <div class="stat">
-                            <strong class="stat-words"> <%= following %> 
-                            </strong>
-                            following
-                        </div></a> 
-
-                    </div>
+                        </div>
 
                     </script>
 
                 </div>
 
-
-
                 <div class="repo-container"> 
 
                     <script type="text/template" class="userData"> 
 
-                    <a href="https://github.com/<%=full_name%>">
-
-                        <div class="get-name1"> <img src="images/book-icon-big.png" class="book"> </img> 
-                        <%= name %> </div> </a>
+                        <a href="https://github.com/<%=full_name%>">
+                        <div class="get-name1"> <img src="images/book-icon-big.png" class="book"> </img> <%= name %> </div> </a>
 
                         <div class="get-des"> <%= description %> </div>
 
                         <div class="get-date"> Last updated <%= updated_at %> </div> 
 
-                  
                         <div class="repo-right">
-
 
                             <a href="https://github.com/<%=full_name%>/network">
                             <div class="get-fork"> <img src="images/fork-icon.png" class="fork"> </img>  <%= forks_count %> </div></a>
 
                             <a href="https://github.com/<%=full_name%>/stargazers">
-                            <div class="get-star"> <img src="images/star-icon.png"> </img> <%= stargazers_count %> </div> </a>
+                            <div class="get-star"> <img src="images/star-icon.png"> 
+                            </img> <%= stargazers_count %> </div> </a>
 
                             <div class="get-lang"> <%= language %> </div>
 
@@ -100,10 +93,6 @@
                 </div>
 
             </div>     
-
-           
-
-
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->

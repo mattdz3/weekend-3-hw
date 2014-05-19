@@ -6,7 +6,6 @@ body {
     text-decoration: none;
 }
 
-
 .header {
     text-shadow: 0 1px 0 #fff;
     border-bottom: 1px solid #e5e5e5;
@@ -30,7 +29,6 @@ body {
     width: 230px;
 }
 
-
 .user-name {
     padding-top: 5px;
     padding-bottom: 15px;
@@ -43,7 +41,6 @@ body {
     font-weight: 300;
     line-height: 24px;
     color: #666;
-    text-overflow: ellipsis;
 }
   
 .user-details {
@@ -73,8 +70,7 @@ body {
 
     &:hover {
         color: #4183c4;
-    }
-   
+    }  
 }
 
 .stat-words {
@@ -99,11 +95,10 @@ body {
 .repo-right {
     width: 150px;
     float: right;
-    list-style: none;
     font-size: 11px;
     font-weight: bold;
-    line-height: 20px;
     color: #666;
+    text-decoration: none;
 }
 
 .userData {
@@ -123,14 +118,13 @@ body {
     font-size: 20px;
     line-height: 32px;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 10px;
     text-decoration: none;
 
     &:hover {
     text-decoration: underline;
     }
 }
-
 
 .get-des {
     padding-left: 35px;
@@ -144,7 +138,6 @@ body {
     padding-bottom: 24px;
     padding-left: 35px;
     color: #999999;
-    border-bottom: 1px solid #eee;
 }
 
 .get-lang {
@@ -175,7 +168,3 @@ body {
         color: #4183c4;
     }
 }
-
-
-
-
